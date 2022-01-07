@@ -1,0 +1,119 @@
+/* 5.	Add a CSS stylesheet that styles all of your pages. */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(27, 27, 27);
+}
+
+/* Buttons */
+.buttons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.first-button,
+.second-button {
+  padding: 10px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.second-button {
+  margin-left: 20px;
+}
+
+.firstButtonText,
+.secondButtonText {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 10px;
+  color: whitesmoke;
+}
+
+/* Don't Hover h1 */
+.dont-hover-h1 {
+  width: fit-content;
+  letter-spacing: 1px;
+  margin: 50px auto 0;
+  padding: 0 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+/* Form */
+.form-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(25, 42, 68);
+  padding: 30px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+label {
+  text-shadow: black 0px 0px 2px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 2px solid rgb(241, 170, 63);
+}
+
+input::placeholder {
+  font-size: 15px;
+  color: rgb(34, 34, 34);
+}
+
+.form-submit-button {
+  cursor: pointer;
+  margin: 20px auto 0;
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 600;
+  border-radius: 50px;
+  width: 50%;
+}
+
+.form-h1,
+.form-h2 {
+  font-size: 1.4rem;
+  width: fit-content;
+  letter-spacing: 1px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.form-h2 {
+  margin-bottom: 32px;
+}
